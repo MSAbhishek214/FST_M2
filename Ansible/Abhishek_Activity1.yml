@@ -5,12 +5,12 @@
 
     - name: Create a new user
       user:
-        name: rubal_user
+        name: arotti_user
         state: present
         create_home: yes
 
     - name: Add user to wheel group
       user:
-        name: rubal_user
+        name: arotti_user
         groups: wheel
         append: yes
